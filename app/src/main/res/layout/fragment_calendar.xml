@@ -1,0 +1,21 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+
+    android:layout_height="wrap_content">
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendarView"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:mcv_selectionColor="@color/black"
+        app:mcv_tileHeight="match_parent"
+        app:mcv_weekDayLabels = "@array/weekday"
+        app:mcv_monthLabels="@array/month"
+        />
+
+</ScrollView>

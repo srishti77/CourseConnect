@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">CourseConnect</string>
+    Current Event: Aktuelles Ereignis
+
+    Enter name: Gib Ihren Namen ein</string>
+    Don't show again: Nicht mehr anzeigen</string>
+   
+    Start adding your reminders!: Fange an, Ihre Erinnerungen hinzufügen!
+    Reminder: Erinnerungen
+    Details: Einzelheiten
+    Date: Datum
+    Time: Zeit
+    Repeat: Wiederholen
+    Notifications OFF: Benachrichtigung aus
+
+    Notifications ON: Benachrichtigung ein
+    Repetition Interval: Wiederholungsintervall 
+    Pick a number: Wähle eine Nummer aus
+    Type of Repetitions: Art der Wiederholungen
+    Discard Reminder: Erinnerung verwerfen
+    Save Reminder: Erinnerung speichern
+    Add Reminder: Erinnerung hinzufügen
+    Edit Reminder:Erinnerung bearbeiten
+    Preferred Calendar: Bevorzugter Kalender
+   
+    Language: Sprache
+    Calendar: Kalender
+    Select your preferred Calendar: Wählen Sie Ihren bevorzugten Kalender aus.
+    Preferred Language: Bevorzugte Sprache
+    Select your preferred Language: Wählen Sie Ihre bevorzugte Sprache.
+
+    Camera: Kamera
+    Click it: Klick es! ('It' is a button)
+
+    Voice Recorder/ Audio Recorder: Diktiergerät
+    For those tiny details in the lecture!: Für die kleinen Details in der Vorlesung!
+
+    Notes: Notes
+
+    For those important extra couple of points!: Für diese wichtigen zusätzlichen Punkte!
+
+    Write your title here: Schreiben Sie hier Ihren Titel
+    Reminders: Erinnerungen
+    For those things you don't want to forget!: Für diese Dinge, die Sie nicht vergessen wollen!
+
+    Today's Events: Heutige Ereignisse
+    No Event for today : Kein Event für heute
+
+    Select the preferred event to Proceed:  Wählen Sie das bevorzugte Ereignis aus, um fortzufahren
+    Create Event: Ereignis erstellen
+    Not Now :Nicht jetzt
+    Saved Successfully: Erfolgreich gespeichert
+    Share: Aktie
+    delete: Löschen
+    Rename :Umbenennen
+
+    There is no event at this moment. Create event to save your material: Es gibt keine Veranstaltung in diesem Moment. Erstellen Sie ein Ereignis, um Ihr Material zu speichern
+
+  	Please select the Calendar name to proceed: Sie müssen die Kalender auswählen, um fortzufahren
+  	ok: Ja
+    No: Nein
+
+    Could Not Save the item!: Das Objekt konnte nicht gespeichert werden (items could be images, notes or audio recordings files)
+    Title cannot be Empty!: Titel darf nicht leer sein!
+    Deleted Successfully: Erfolgreich gelöscht
+    Renamed Successfully: Erfolgreich umbenannt
+
+    English : Englisch
+    German: Deutsch
+    Italian: Italienisch
+
+    Settings: die Einstellungen
+    Cancel: Stornieren
+
+    Discarded: Verwerfen
+    Reminder Title cannot be blank!: Der Erinnerungstitel darf nicht leer sein!
+
+    Enter the new file name: Geben Sie den neuen Dateinamen ein.
+
+    Selected Event: Ausgewähltes Ereignis
+    Discard Changes: Änderungen verwerfen
+
+    Select Type/ Option: Art auswählen 
+    Edited: Bearbeitet
+    Minute: Minute
+    hour: Stunde
+    Day: Tag
+    week: Woche
+
+    month: Monat
+
+    OFF: Aus
+    Notify: Benachrichtigen
+    So what\'s the reminder about?: Woran erinnertest du also?
+    Done: Erledigt
+    Every: Jeden
+
+    Images selected: Bilder ausgewählt
+    notes selected : Notizen ausgewählt
+    audios selected: Audios ausgewählt
+    items deleted: Elemente gelöscht
+    No materials available: Keine Materialien verfügbar
+
+    These are the short form of the day of the week, like sunday, monday etc
+    Sun: So
+    Mon: Mo
+    Tue: Di
+    Wed: Mi
+    Thu: Do
+    Fri: Fr
+    Sat: Sa
+
+    January: Januar
+    February: Februar
+    March: März
+    April: April
+    may: Mai
+    June: Juni
+    July: Juli
+    august: August
+    september: September
+    october: Oktober
+    november: November
+    december: Dezember
+    Select a file: Wählen Sie eine Datei aus
+
+    For saving the documents of your events!!!: Zum Speichern der Dokumente Ihrer Veranstaltungen!!!
+    Please grant calendar access permission.: >Gewähren Sie bitte die Kalenderzugriffsberechtigung.
+
+    Grant Permission: Genehmigung Erteilen
+
+    Import existing calendar file.: Importieren Kalender Datei.
+    Search .*ics calendar file.: Suche .*ics Kalenderdatei.
+    Import Calendar : Importieren Kalender
+    Skip: Überspringen
+    For capturing the important documents of your events!!!: Zur Erfassung der wichtigen Dokumente Ihrer Veranstaltungen!!!
+    For saving the important points of your events!!!: Zum Speichern der wichtigen Punkte Ihrer Veranstaltungen!!!
+    For recording the details of your events!!!: Für die Aufzeichnung der Details Ihrer Veranstaltungen!!!
+    For reminding you the important things of your events!!!: Um Sie an die wichtigen Punkte Ihrer Veranstaltungen zu erinnern!!!
+
+    Do you want to save the notes?: Möchten Sie die Notizen speichern?
+
+    English: English
+    German: German
+    Italian: Italian
+

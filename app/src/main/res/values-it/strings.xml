@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">CourseConnect</string>
+    <string name="event_list_header_eng">Evento Corrente</string>
+    <string name="recorder_prompt_message">Inserisci il tuo nome</string>
+    <string name="recorder_show_prompt_toggle">Non mostrare di nuovo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Reminder region -->
+    <string name="no_reminders">Inizia ad aggiungere i tuoi Promemoria!</string>
+    <string name="add_reminder">Promemoria</string>
+    <string name="details">Dettagli</string>
+    <string name="date">Data</string>
+    <string name="time">Tempo</string>
+    <string name="repeat">Ripetere</string>
+    <string name="notify_off">Notifiche Disattivate</string>
+    <string name="notify_on">Notifiche Attivate</string>
+    <string name="repeat_no">Intervallo di Ripetizione </string>
+    <string name = "pick_a_number">Scegli un numero</string>
+    <string name="repeat_type">Tipo di Ripetizioni</string>
+    <string name="action_discard_reminder">Cancella Promemoria</string>
+    <string name="action_save_reminder">Salva Promemoria</string>
+    <string name="title_activity_add_reminder">Aggiungi Promemoria</string>
+    <string name="title_activity_edit_reminder">Modifica Promemoria</string>
+
+    <string name="language">Lingua</string>
+    <string name="calendar">Calendario</string>
+    <string name="preferred_calendars">Email Preferito</string>
+     <string name="select_preferred_calendars">Seleziona il tuo Email preferito.</string>
+    <string name="preferred_language">Lingua preferita</string>
+    <string name="select_preferred_language">Seleziona la tua lingua preferita.</string>
+
+    <string name="camera">Fotocamera</string>
+     <string name="camera_msg">Cliccami</string>
+    <string name="voice_record">Registrazione vocale</string>
+     <string name="voice_record_msg">Per quei piccoli dettagli nella lezione!</string>
+    <string name="notes">Note</string>
+    <string name="notes_title">Scrivi il tuo titolo qui</string>
+    <string name="notes_msg">Per quei punti importanti in più!</string>
+    <string name="reminders">Promemoria</string>
+    <string name="reminders_msg">Per quelle cose che non vuoi dimenticare!</string>
+
+
+    <string name="more_than_one_event_msg">Seleziona quello preferito per procedere</string>
+    <string name="create_event">Crea Evento</string>
+    <string name="not_now">Non Ora</string>
+    <string name="saved_successfully">Salvato con successo</string>
+
+
+    <string name="share">Condividi</string>
+    <string name="delete">Cancella</string>
+    <string name="rename">Rinomina</string>
+    <string name="create_event_msg">Crea un evento per salvare il tuo materiale</string>
+    <string name="todays_event">Eventi da:</string>
+    <string name="no_event">Nessun evento per oggi</string>
+
+   <string name="select_calendar_msg">Devi selezionare un Email
+       per procedere</string>
+    <string name="ok">Ok</string>
+    <string name="no">No</string>
+    <string name="could_not_save">Impossibile salvare l\'oggetto</string>
+
+    <string name="title_not_empty">Il titolo non può essere vuoto!</string>
+    <string name="deleted_successfully">Cancellato con successo</string>
+    <string name="renamed_successfully">Rinominato con successo</string>
+
+    <!--
+    New -->
+
+    <string name="english">Inglese</string>
+    <string name="German">Tedesco</string>
+    <string name="Italian">Italiano</string>
+
+    <string name="settings">Impostazioni</string>
+    <string name="cancel">Annulla</string>
+    <string name="discard">Scartato</string>
+    <string name="reminder_not_blank">Il titolo del promemoria non può essere vuoto!</string>
+
+    <string name="new_file_name">Inserisci il nuovo nome del file</string>
+
+    <string name="selected_event">Evento selezionato</string>
+    <string name="discard_changes">Non salvare le modifiche</string>
+
+    <string name = "select_type">Seleziona Tipo</string>
+    <string name="edited">Modificato</string>
+    <string name = "minute">Minuto</string>
+    <string name = "hour">Ora</string>
+    <string name = "day">Giorno</string>
+    <string name = "week">Settimana</string>
+    <string name = "month">Mese</string>
+
+    <string name="repeat_off">OFF</string>
+    <string name="notify">Notifica</string>
+
+    <string name="reminder_details">Qual è il promemoria?</string>
+
+    <string name = "done">Fatto</string>
+    <string name = "every">Ogni</string>
+
+
+    <string name = "images_selected">immagini selezionate</string>
+    <string name = "notes_selected">note selezionate</string>
+    <string name = "audios_selected">audio selezionati</string>
+    <string name = "items_deleted">articoli cancellati</string>
+
+    <string name="no_materials_available">Nessun materiale disponibile</string>
+
+
+    <string name="sunday">Dom</string>
+    <string name="monday">Lun</string>
+    <string name="tuesday">Mar</string>
+    <string name="wednesday">Mer</string>
+    <string name="thursday">Gio</string>
+    <string name="friday">Ven</string>
+    <string name="saturday">Sab</string>
+
+    <string name="january">Gennaio</string>
+    <string name="february">Febbraio</string>
+    <string name="march">Marzo</string>
+    <string name="april">Aprile</string>
+    <string name="may">Maggio</string>
+    <string name="June">Giugno</string>
+    <string name="July">Luglio</string>
+    <string name="august">Agosto</string>
+    <string name="september">Settembre</string>
+    <string name="october">Ottobre</string>
+    <string name="november">Novembre</string>
+    <string name="december">Dicembre</string>
+
+    <string name = "select_file">Seleziona un file</string>
+    <string name = "save_doc_msg">Per salvare i documenti dei tuoi eventi!!!</string>
+
+    <string name = "grant_permission_msg">Si prega di concedere l\'autorizzazione di accesso al calendario.</string>
+
+    <string name = "grant_permission">Concedere l\'autorizzazione</string>
+
+    <string name = "import_file">Importare calendario file</string>
+    <string name = "search_cal">Cerca file del calendario .*ics</string>
+
+    <string name = "import_cal">Importare calendario</string>
+    <string name = "skipButton">Salta</string>
+    <string name = "camera_intro_msg">Per fotografare i documenti importanti dei tuoi eventi!!!</string>
+    <string name = "notes_intro_msg">Per salvare i punti importanti dei tuoi eventi!!!</string>
+
+    <string name = "record_intro_msg">Per registrare i dettagli dei tuoi eventi!!!</string>
+    <string name = "reminder_intro_msg">Per ricordarti le cose importanti dei tuoi eventi!!!</string>
+
+    <string name = "save_notes">Vuoi salvare le note?</string>
+    <string name="timer_hint">00:00:00</string>
+
+    <string name="english_value">English</string>
+    <string name="german_value">German</string>
+    <string name="italian_value">Italian</string>
+    <string name="event_name">Inserisci il nome dell\'evento</string>
+    <string name="plural_end">(i)</string>
+    <string name="delete_folders">Elimina cartelle</string>
+    <string name="refresh">Ricaricare</string>
+    <string name="select_delete_folders">Seleziona le cartelle da eliminare</string>
+    <string name="selected_list">elementi selezionati</string>
+    <string name="tap_notification_recorder">Tocca per andare al Registratore</string>
+    <string name="delete_event">Elimina evento</string>
+    <string name="event">Evento(i)</string>
+
+    <string name="no_events_delete">Nessun evento da eliminare</string>
+    <string name= "delete_folder_confirm">Sei sicuro di voler eliminare</string>
+    <string name="folders">cartelle</string>
+    <string name="create_event_success">Evento creato con successo</string>
+    <string name="Request_Permission_Grant">Richiedi permesso di autorizzazione</string>
+    <string name="retry_permission">È necessario concedere l\'autorizzazione per procedere. Premi il pulsante \"Riprova \"</string>
+    <string name="important_permission_denied">Autorizzazione importante negata</string>
+    <string name="features_requirement">
+Questa funzione non funzionerà senza il permesso. Dare il permesso manualmente.</string>
+    <string name="retry">Riprova</string>
+</resources>

@@ -1,0 +1,53 @@
+There are more than one events. Select the preferred event to Procede
+Ci sono più eventi. Seleziona quello preferito per procedere
+
+Permission granted
+permesso concesso
+
+Permission denied
+permesso negato
+
+Request Permission Grant
+Richiedi i permessi
+
+You need to grant all Permission. Press the "Refresh" button
+Devi dare tutti i permessi per poter usare quest´app: premi Ricarica
+
+You need to grant Permission that are Denied
+Devi accettare i permessi che sono stati negati
+
+There is no event at this moment. Create event to save your material
+Non c´è ancora nessun evento. Crea un evento per salvare il tuo materiale
+
+Create Event
+Crea Evento
+
+Not Now Pressed
+Non ora premuto
+
+Saved succesfully
+Salvato con successo
+
+Share
+Condividi
+
+Delete
+Cancella
+
+Rename
+Rinomina
+
+Images
+Immagini
+
+Notes
+Note
+
+Recordings
+Registrazioni
+
+Just once
+Solo una volta
+
+Always
+Sempre

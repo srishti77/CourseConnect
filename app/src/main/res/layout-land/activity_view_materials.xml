@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pramod.courseconnect.activities.ViewMaterialsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerView"
+        android:padding="10sp"
+        >
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp"
+            android:id="@+id/spinner"
+            android:background="@drawable/spinnerbackground"
+
+            />
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_keyboard_arrow_down_white_24dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/spinnerView">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/loadingPanel"
+            android:indeterminate="true" />
+    </RelativeLayout>
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_nav_bar_menu"
+        android:id="@+id/bottom_nav_bar"
+        android:layout_alignParentBottom="true">
+
+    </android.support.design.widget.BottomNavigationView>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewMaterialsViewPager"
+        android:padding="10sp"
+        android:layout_below="@id/spinnerView"
+        android:layout_above="@+id/bottom_nav_bar"></android.support.v4.view.ViewPager>
+</RelativeLayout>

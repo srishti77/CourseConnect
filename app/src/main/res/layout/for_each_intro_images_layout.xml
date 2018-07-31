@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/camera"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_camera_black_24dp" />
+
+    <ImageView
+        android:id="@+id/recorder"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginTop="34dp"
+        android:background="@color/deepPurple"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_record_voice_over_black_24dp" />
+
+    <ImageView
+        android:id="@+id/notes"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:layout_alignLeft="@+id/camera"
+        android:layout_alignStart="@+id/camera"
+        android:layout_below="@+id/camera"
+        android:layout_marginTop="46dp"
+        android:background="@color/pinkish"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_speaker_notes_black_24dp" />
+
+    <ImageView
+        android:id="@+id/reminder"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/recorder"
+        android:layout_alignStart="@+id/recorder"
+        android:layout_alignTop="@+id/notes"
+        android:background="@color/blue"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_reminder_black_24dp" />
+
+</RelativeLayout>

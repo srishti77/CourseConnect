@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pramod.courseconnect">
+
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher_icon_test_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.CCMainActivity"
+            android:configChanges="locale|orientation" />
+        <activity
+            android:name=".activities.BuildCameraActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.CCBaseActivity" />
+        <activity android:name=".activities.SettingsActivity" />
+        <activity android:name=".activities.TakeNotesActivity" />
+        <activity
+            android:name=".activities.ViewMaterialsActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.pramod.courseconnect"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".activities.RecorderActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.ReminderAddActivity" />
+        <activity android:name=".activities.ReminderListActivity" />
+        <activity android:name=".activities.ReminderEditActivity" />
+        <activity android:name=".activities.RecorderActivityBG"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"/>
+
+        <receiver android:name=".helpers.ReminderNotificationCreater" />
+        <receiver android:name=".helpers.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".helpers.ActionReceiver" />
+        <activity android:name=".activities.ViewFullImagesActivity" />
+        <activity
+            android:name=".activities.IntroActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Intro" />
+
+        <service
+            android:name=".helpers.AudioService"
+            android:enabled="true"
+            android:exported="true"
+            ></service>
+    </application>
+
+</manifest>

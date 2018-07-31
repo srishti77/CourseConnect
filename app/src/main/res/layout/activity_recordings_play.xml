@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/close"
+        android:src="@drawable/ic_close_black_24dp"
+        android:layout_alignParentRight="true">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/close"
+        android:id="@+id/Name_Of_Recordings"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"
+        android:paddingLeft="15dp"
+        android:hint="Recodings"/>
+
+    <ImageView
+        android:id="@+id/play_pause_recording"
+        android:layout_width="@dimen/width"
+        android:layout_height="@dimen/width"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Name_Of_Recordings"
+        android:layout_marginEnd="@dimen/padding"
+        android:layout_marginRight="@dimen/padding"
+        android:paddingRight="@dimen/padding"
+        android:src="@drawable/ic_play_arrow_black_24dp" />
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/width"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/play_pause_recording"
+        android:layout_marginTop="@dimen/padding" />
+
+    <TextView
+        android:id="@+id/timeOfSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/play_pause_recording"
+        android:layout_alignRight="@+id/play_pause_recording"
+        android:layout_below="@+id/seekbar"
+        android:hint="00:00:00/00:00:00" />
+</RelativeLayout>

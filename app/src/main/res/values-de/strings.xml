@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">CourseConnect</string>
+    <string name="event_list_header_eng">Aktuelles Ereignis</string>
+    <string name="recorder_prompt_message">Geben Sie bitte der Aufnahme einen Namen</string>
+    <string name="recorder_show_prompt_toggle">Nicht mehr anzeigen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Reminder region -->
+    <string name="no_reminders">Erstelle Sie eine Erinnerung!</string>
+    <string name="add_reminder">Erinnerung</string>
+    <string name="details">Details</string>
+    <string name="date">Datum</string>
+    <string name="time">Zeit</string>
+    <string name="repeat">Wiederholen</string>
+    <string name="notify_off">Benachrichtigungen AUS</string>
+
+    <string name="notify_on">Benachrichtigungen EIN</string>
+    <string name="repeat_no">Wiederholungsintervall </string>
+    <string name = "pick_a_number">Wähle Sie eine Nummer aus</string>
+    <string name="repeat_type">Art der Wiederholungen</string>
+    <string name="action_discard_reminder">Erinnerung verwerfen</string>
+    <string name="action_save_reminder">Erinnerung speichern</string>
+    <string name="title_activity_add_reminder">Erinnerung hinzufügen</string>
+    <string name="title_activity_edit_reminder">Erinnerung bearbeiten</string>
+    <string name="preferred_calendars">Bevorzugter Email</string>
+    <string name="timer_hint">00:00:00</string>
+
+    <string name="language">Sprache</string>
+    <string name="calendar">Kalender</string>
+    <string name="select_preferred_calendars">Wählen Sie Ihren bevorzugten Email aus.</string>
+    <string name="preferred_language">Bevorzugte Sprache</string>
+    <string name="select_preferred_language">Wählen Sie Ihre bevorzugte Sprache.</string>
+
+    <string name="camera">Kamera</string>
+    <string name="camera_msg">Klick mich!</string>
+
+    
+    <string name="voice_record">Sprachaufnahme</string>
+    <string name="voice_record_msg">Für die kleinen Details aus der Vorlesung!</string>
+
+    <string name="notes">Notizen</string>
+    <string name="notes_msg">Für diese wichtigen Stichpunkte aus der Vorlesung!</string>
+    <string name="notes_title">Geben Sie Ihren Titel hier</string>
+    <string name="reminders">Erinnerungen</string>
+    <string name="reminders_msg">Für die Dinge, die Sie nicht vergessen möchten!</string>
+
+    <string name="todays_event">Veranstaltungen von:</string>
+    <string name="no_event">Keine Veranstaltung heute</string>
+
+    <string name="more_than_one_event_msg">
+        Wählen Sie die bevorzugte Ereignis aus, um fortzufahren</string>
+    <string name="create_event">Veranstaltung erstellen</string>
+    <string name="not_now">Nicht jetzt</string>
+    <string name="saved_successfully">Erfolgreich gespeichert</string>
+
+    <string name="share">Aktie</string>
+    <string name="delete">Löschen</string>
+    <string name="rename">Umbenennen</string>
+
+    <string name="create_event_msg">Erstelle Sie eine Veranstaltung, um Ihr Material zu speichern.</string>
+
+  	<string name="select_calendar_msg">Bitte wählen Sie einen Email aus, um fortzufahren</string>
+  	 <string name="ok">Ok</string>
+    <string name="no">Nein</string>
+
+    <string name="could_not_save">Speichern fehlgeschlagen!</string>
+    <string name="title_not_empty">Geben Sie einen Titel ein</string>
+    <string name="deleted_successfully">Erfolgreich gelöscht</string>
+     <string name="renamed_successfully">Erfolgreich umbenannt</string>
+
+    <!--
+    New
+    -->
+    <string name="english">Englisch</string>
+    <string name="German">Deutsch</string>
+    <string name="Italian">Italienisch</string>
+
+    <string name="settings">Einstellungen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="discard">Verworfen</string>
+    <string name="reminder_not_blank">Geben Sie einen Titel ein!</string>
+
+    <string name="new_file_name">Geben Sie den neuen Dateinamen ein</string>
+
+    <string name="selected_event">Ausgewähltes Veranstaltung</string>
+    <string name="discard_changes">Änderungen verwerfen</string>
+
+    <string name = "select_type">Wähle die Wiederholungsart</string>
+    <string name="edited">Bearbeitet</string>
+    <string name = "minute">Minute</string>
+    <string name = "hour">Stunde</string>
+    <string name = "day">Tag</string>
+    <string name = "week">Woche</string>
+    <string name = "month">Monat</string>
+
+    <string name="repeat_off">Aus</string>
+    <string name="notify">Benachrichtigen</string>
+    <string name="reminder_details">Wofür ist diese Erinnerung?</string>
+    <string name = "done">Erledigt</string>
+    <string name = "every">Jede</string>
+
+    <string name = "images_selected">Bilder ausgewählt</string>
+    <string name = "notes_selected">Notizen ausgewählt</string>
+    <string name = "audios_selected">Audiodaten ausgewählt</string>
+    <string name = "items_deleted">Elemente gelöscht</string>
+    <string name="no_materials_available">Noch keine Elemente</string>
+
+    <string name="sunday">So</string>
+    <string name="monday">Mo</string>
+    <string name="tuesday">Di</string>
+    <string name="wednesday">Mi</string>
+    <string name="thursday">Do</string>
+    <string name="friday">Fr</string>
+    <string name="saturday">Sa</string>
+
+    <string name="january">Januar</string>
+    <string name="february">Februar</string>
+    <string name="march">März</string>
+    <string name="april">April</string>
+    <string name="may">Mai</string>
+    <string name="June">Juni</string>
+    <string name="July">Juli</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">Oktober</string>
+    <string name="november">November</string>
+    <string name="december">Dezember</string>
+    <string name = "select_file">Wählen Sie eine Datei aus</string>
+
+    <string name = "save_doc_msg">Zum Speichern des Veranstaltungsmaterials!</string>
+    <string name = "grant_permission_msg">Die App braucht Zugriffsrechte auf den Kalender</string>
+
+    <string name = "grant_permission">Zugriffsrechte geben</string>
+
+    <string name = "import_file">Kalender Datei importieren.</string>
+    <string name = "search_cal">Suche .*ics Kalenderdatei.</string>
+    <string name = "import_cal">Importieren Kalender</string>
+    <string name = "skipButton">Überspringen</string>
+    <string name = "camera_intro_msg">Zur Erfassung der wichtigen Dokumente Ihrer Veranstaltungen!!!</string>
+    <string name = "notes_intro_msg">Zum Speichern der wichtigen Punkte Ihrer Veranstaltungen!!!</string>
+    <string name = "record_intro_msg">Zum Aufnehmen der Veranstaltung oder Teilen davon!!!</string>
+    <string name = "reminder_intro_msg">Um Sie an etwas zu erinnern!!!</string>
+
+    <string name = "save_notes">Möchten Sie die Notizen speichern?</string>
+
+    <string name="english_value">English</string>
+    <string name="german_value">German</string>
+    <string name="italian_value">Italian</string>
+    <string name="event_name">Geben Sie den Namen des Veranstaltungs ein</string>
+    <string name="plural_end">(en)</string>
+    <string name="delete_folders">Ordner löschen</string>
+
+    <string name="refresh">Aktualisierung</string>
+    <string name="select_delete_folders">Wählen Sie die zu löschenden Ordner aus</string>
+    <string name="selected_list">ausgewählte Artikel</string>
+    <string name="tap_notification_recorder">Tippe, um zum Rekorder zu gelangen</string>
+    <string name="delete_event">Ereignis löschen</string>
+    <string name="event">Veranstaltung(en)</string>
+
+    <string name="no_events_delete">Keine zu löschenden Ereignisse</string>
+    <string name= "delete_folder_confirm">Sind Sie sicher, dass Sie löschen möchten</string>
+    <string name="folders">Ordner</string>
+
+    <string name="create_event_success">Ereignis wurde erfolgreich erstellt</string>
+    <string name="Request_Permission_Grant">Erlaubnis anfordern</string>
+    <string name="retry_permission">Sie müssen die Berechtigung zum Fortfahren erteilen. Drücken Sie die \" Wiederholen \" Schaltfläche</string>
+    <string name="important_permission_denied">Wichtiger Zugriff verweigert</string>
+    <string name="features_requirement">Diese Funktion wird ohne die Erlaubnis nicht funktionieren. Erteilen Sie die Berechtigung manuell.</string>
+    <string name="retry">Wiederholen</string>
+
+</resources>

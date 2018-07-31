@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/language">
+        <ListPreference
+            android:title="@string/preferred_language"
+            android:key="preferredLanguage"
+            android:summary="@string/select_preferred_language"
+            android:entries="@array/languageType"
+            android:entryValues="@array/languageValues">
+        </ListPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/calendar">
+        <MultiSelectListPreference
+            android:title="@string/preferred_calendars"
+            android:key="preferredCalendars"
+            android:summary="@string/select_preferred_calendars">
+        </MultiSelectListPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/import_cal">
+        <Preference
+            android:title="@string/search_cal"
+            android:key="importCalendar"
+            android:summary="@string/import_file">
+
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

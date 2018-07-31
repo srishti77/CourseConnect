@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">CourseConnect</string>
+    <string name="event_list_header_eng">Current Event</string>
+    <string name="recorder_prompt_message">Enter name</string>
+    <string name="recorder_show_prompt_toggle">Don\'t show again</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Reminder region -->
+    <string name="no_reminders">Start adding your reminders!</string>
+    <string name="add_reminder">Reminder</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="notify_off">Notifications OFF</string>
+    <string name="notify_on">Notifications ON</string>
+    <string name="repeat_no">Repetition Interval </string>
+    <string name="pick_a_number">Pick a number </string>
+    <string name="repeat_type">Type of Repetitions</string>
+    <string name="action_discard_reminder">Discard Reminder</string>
+    <string name="action_save_reminder">Save Reminder</string>
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="preferred_calendars">Preferred Email</string>
+
+    <string name="language">Language</string>
+    <string name="calendar">Calendars</string>
+    <string name="select_preferred_calendars">Select your preferred Email</string>
+    <string name="preferred_language">Preferred Language</string>
+    <string name="select_preferred_language">Select your preferred Language</string>
+
+    <string name="camera">Camera</string>
+    <string name="camera_msg">Click away!</string>
+
+
+    <string name="voice_record">Voice Recorder</string>
+    <string name="voice_record_msg">For those tiny details in the lecture!</string>
+
+    <string name="notes">Notes</string>
+    <string name="notes_msg">For those important extra couple of points!</string>
+    <string name="notes_title">Write your title here</string>
+    <string name="reminders">Reminders</string>
+    <string name="reminders_msg">For those things you don\'t want to forget!</string>
+    <string name="todays_event">Events dated:</string>
+    <string name="no_event">No Event for today</string>
+
+    <string name="more_than_one_event_msg">Select the preferred event to Proceed</string>
+    <string name="create_event">Create Event</string>
+    <string name="not_now">Not Now</string>
+    <string name="saved_successfully">Saved Successfully</string>
+
+
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="rename">Rename</string>
+
+    <string name="create_event_msg">Create event to save your material</string>
+    <string name="select_calendar_msg">Please select your email to proceed</string>
+    <string name="ok">Ok</string>
+    <string name="no">No</string>
+
+    <string name="could_not_save">Could Not Save the item!</string>
+
+    <string name="title_not_empty">Title cannot be Empty!</string>
+    <string name="deleted_successfully">Deleted Successfully</string>
+    <string name="renamed_successfully">Renamed Successfully</string>
+
+    <string name="english">English</string>
+    <string name="German">German</string>
+    <string name="Italian">Italian</string>
+
+    <string name="settings">Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="discard">Discarded</string>
+    <string name="reminder_not_blank">Reminder Title cannot be blank!</string>
+
+
+    <string name="new_file_name">Enter the new file name</string>
+
+    <string name="selected_event">Selected Event</string>
+    <string name="discard_changes">Discard Changes</string>
+
+    <string name="select_type">Select Type</string>
+    <string name="edited">Edited</string>
+    <string name="minute">Minute</string>
+    <string name="hour">Hour</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+
+    <string name="repeat_off">OFF</string>
+    <string name="notify">Notify</string>
+
+    <string name="reminder_details">So what\'s the reminder about?</string>
+    <string name="done">Done</string>
+    <string name="every">Every</string>
+    <string name="images_selected">images selected</string>
+    <string name="notes_selected">notes selected</string>
+    <string name="audios_selected">audios selected</string>
+    <string name="items_deleted">items deleted</string>
+    <string name="no_materials_available">No materials available</string>
+
+    <string name="sunday">Sun</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+
+
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="June">June</string>
+    <string name="July">July</string>
+
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+
+    <string name="december">December</string>
+
+
+    <string name="select_file">Select a file</string>
+    <string name="save_doc_msg">For saving the documents of your events!!!</string>
+    <string name="grant_permission_msg">Please grant calendar access permission.</string>
+    <string name="grant_permission">Grant Permission</string>
+
+    <string name="import_file">Import existing calendar file.</string>
+    <string name = "search_cal">Search .*ics calendar file.</string>
+    <string name="import_cal">Import Calendar</string>
+    <string name="skipButton">Skip</string>
+    <string name="camera_intro_msg">For capturing the important documents of your events!!!</string>
+    <string name="notes_intro_msg">For saving the important points of your events!!!</string>
+
+    <string name="record_intro_msg">For recording the details of your events!!!</string>
+
+    <string name="reminder_intro_msg">For reminding you the important things of your events!!!</string>
+    <string name="save_notes">Do you want to save the notes?</string>
+    <string name="timer_hint">00:00:00</string>
+
+    <string name="english_value">English</string>
+    <string name="german_value">German</string>
+    <string name="italian_value">Italian</string>
+    <string name="event_name">Enter your event name</string>
+    <string name="plural_end">(s)</string>
+    <string name="delete_folders">Delete folders</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="select_delete_folders">Select the folders to delete</string>
+    <string name="selected_list">items selected</string>
+
+    <string name="tap_notification_recorder">Tap to go to the Recorder</string>
+    <string name="delete_event">Delete Event</string>
+    <string name="event">Event (S)</string>
+    <string name="no_events_delete">No events to delete</string>
+    <string name= "delete_folder_confirm">Are you sure you want to delete</string>
+    <string name="folders">folders</string>
+    <string name="create_event_success">Event created successfully</string>
+    <string name="Request_Permission_Grant">Request Permission Grant</string>
+    <string name="retry_permission">You need to grant the Permission to proceed. Press the \"Retry \" button</string>
+    <string name="important_permission_denied">Important Permission Denied</string>
+    <string name="features_requirement">This feature will not work without the permission. Give permission manually.</string>
+    <string name="retry">Retry</string>
+</resources>

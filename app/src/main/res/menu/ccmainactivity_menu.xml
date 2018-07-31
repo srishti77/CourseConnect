@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/settings" android:id="@+id/setting" app:showAsAction="never"></item>
+    <item android:title="@string/refresh" android:id="@+id/reload"  app:showAsAction="never"></item>
+    <item android:title = "@string/create_event" android:id="@+id/create_event" ></item>
+    <item android:title = "@string/delete_event" android:id="@+id/delete_event" ></item>
+    <item android:title = "@string/delete_folders" android:id="@+id/delete_folder" ></item>
+    <item android:title="" android:id="@+id/refresh" android:icon="@drawable/ic_refresh_white_24dp" app:showAsAction="always"></item>
+    <item android:title="" android:id="@+id/folder" android:icon="@drawable/ic_folder_white_24dp" app:showAsAction="always"></item>
+
+    <item android:id="@+id/newNotes"
+        android:title=""
+        android:icon="@drawable/ic_note_white_black_24dp"
+        app:showAsAction="always"></item>
+
+    <item android:id="@+id/save" android:title="" android:icon="@drawable/ic_check_white_24dp" app:showAsAction="always">
+
+    </item>
+
+
+</menu>

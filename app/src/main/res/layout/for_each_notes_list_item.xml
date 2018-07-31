@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:padding="10sp"
+    android:orientation="horizontal"
+    android:background="@drawable/selected">
+
+        <ImageView
+            android:id="@+id/notesIcon"
+            android:layout_width="55sp"
+            android:layout_height="55sp"
+            android:background="@drawable/circle_background_pinkish"
+            android:padding="10dp"
+            android:src="@drawable/ic_speaker_notes_black_24dp" />
+
+        <TextView
+            android:id="@+id/notesName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_slab_light"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+           />
+
+    </LinearLayout>
+
+
+
+
+

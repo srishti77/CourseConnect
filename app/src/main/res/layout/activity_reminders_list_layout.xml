@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ReminderListActivity">
+
+    <ListView
+        android:id="@+id/reminder_list"
+        android:layout_width="match_parent"
+        android:divider="#00000000"
+        android:layout_height="match_parent"
+        android:padding="10sp"
+        android:layout_above="@id/add_reminder">
+    </ListView>
+
+    <TextView
+        android:id="@+id/no_reminder_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="16dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="@string/no_reminders"/>
+
+
+    <com.getbase.floatingactionbutton.AddFloatingActionButton
+        android:id="@+id/add_reminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        fab:fab_colorNormal="@color/blue"
+        fab:fab_colorPressed="@color/deepPurple"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"/>
+
+</RelativeLayout>
